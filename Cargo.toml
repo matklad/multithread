@@ -1,0 +1,14 @@
+[package]
+name = "multithread"
+version = "0.1.0-pre.4"
+description = "Simple API for data-parallel tasks, rayon-lite"
+categories = [ "concurrency" ]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/matklad/multithread"
+authors = ["Alex Kladov <aleksey.kladov@gmail.com>"]
+edition = "2021"
+
+exclude = [".github/", "bors.toml", "rustfmt.toml"]
+
+[workspace]
+members = ["xtask"]
